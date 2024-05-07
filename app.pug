@@ -1,0 +1,33 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="utf-8")
+        title Pug sprint 01
+        link(
+            rel="stylesheet"
+            href="style.css"
+        )
+    body
+        header.header
+            h1 Header 1
+            p.subheader Subheader text
+            
+        .container
+            main#main 
+                div
+                    h1 Some text
+                div
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, totam!
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing.
+                div
+                    p.after-text 2023-10-29
+                    
+            .sidebar
+                h3 Navbar
+                ul
+                    li item 1
+                    li item 2
+                    li item 3
+                    
+            footer.footer
+                p.text-center 2024 Company
